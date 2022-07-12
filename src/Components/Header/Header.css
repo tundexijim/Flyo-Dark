@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem;
+    
+}
+header ul{
+    display: flex;
+}
+header ul li{
+    margin-left: 2rem;
+}
+header .logo{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+    header{
+         align-items: center;
+         margin: 4rem 2rem; 
+    }
+    header ul li{
+        margin-left: 1rem;
+    }
+}

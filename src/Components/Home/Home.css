@@ -1,0 +1,27 @@
+
+section .home__container h1{
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+section .home__container p{
+    width: 35%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 375px) {
+    section .home__container{
+        padding: 0 2rem;
+    }
+    section .home__container h1{
+        width:100%
+    }
+    section .home__container p{
+        width: 100%;
+    }
+    section .home__container img{
+        width: 100%;
+    }
+    
+}

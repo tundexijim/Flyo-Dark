@@ -1,0 +1,37 @@
+section .about__container{
+    display: flex;
+    align-items: center;
+    padding: 0 6rem;
+    gap: 3rem;
+}
+section .text{
+    text-align: left;
+}
+section .text h1{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+section .text p{
+    width: 75%;
+    margin-bottom: 1rem;
+}
+section .text a{
+    font-size: 12px;
+}
+@media screen and (max-width: 375px){
+    section .about__container{
+        flex-direction: column;
+        padding: 0 2rem; 
+        margin: 0 auto;  
+    }
+    section .about__container img{
+        width: 20rem;
+    }
+    section .text p{
+        width: 100%;
+    }
+    section .text h1{
+        width: 100%;
+        
+    }
+}

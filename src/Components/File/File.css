@@ -1,0 +1,41 @@
+section .file__container{
+    padding: 0 6rem;
+}
+section .above{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+section .below{
+display: flex;
+align-items: center;
+}
+section .file__container p{
+    width: 70%;
+    margin: 0 auto;
+}
+section .file__container h2{
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 375px){
+    section .file__container{
+        padding: 0 2rem;
+    }
+    section .above{
+        flex-direction: column;
+        gap: 6rem;
+        margin-bottom: 6rem;
+    }
+    section .below{
+        flex-direction: column;
+        gap: 6rem;
+    }
+    section .file__container p{
+        width: 100%;
+    }
+    section .file__container h2{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
